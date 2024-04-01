@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void printMultiplesOfSeven() {
+    int num;
+    for (num = 14; num <= 98; num += 7) {
+        printf("%d ", num);
+    }
+}
+
+int main() {
+    printf("Cac so nguyen co 2 chu so va la boi cua 7 la: ");
+    printMultiplesOfSeven();
+    printf("\n");
+    return 0;
+}
